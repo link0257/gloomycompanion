@@ -1,12 +1,13 @@
-DECK_DEFINITONS = 
-    [   
+DECK_DEFINITONS =
+    [
 
-        { name: "Boss"
+        {
+            name: "Boss"
         , cards:
-            [ [false, "11", "* Special 2"]
+            [[false, "11", "* Special 2"]
             , [false, "14", "* Special 2"]
-            , [true,  "17", "* Special 2"]
-            , [true,  "85", "* Special 1"]
+            , [true, "17", "* Special 2"]
+            , [true, "85", "* Special 1"]
             , [false, "79", "* Special 1"]
             , [false, "73", "* Special 1"]
             , [false, "36", "* %move% +0", "* %attack% +0"]
@@ -16,21 +17,10 @@ DECK_DEFINITONS =
         /////////////////////////////////////////////////////////////
         //////////////////////Ancient Artillery//////////////////////
         /////////////////////////////////////////////////////////////
-        { name: "Ancient Artillery-0"
+        {
+            name: "Ancient Artillery-0"
         , cards:
-            [ [false, "46", "* %attack% 1/2", "** %range% 6/7"]
-            , [true,  "71", "* %attack% 2/3", "** %range% 4/5", "** All adjacent enemies suffer 2 damage"]
-            , [true,  "71", "* %attack% 2/3", "** %range% 4/5", "** All adjacent enemies suffer 2 damage"]
-            , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 1/2 %aoe-triangle-2-side%", "** %range% 3/4"]
-            , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 1/2 %aoe-circle%", "** %range% 3/4"]
-            , [false, "17", "* %push% 2", "** Target all adjacent enemies", "* %shield% 2", "* %attack% 0/1", "** %range% 4/5"]
-            , [false, "95", "* %attack% 3/4", "** %range% 4/5"]
-            , [false, "46", "* %attack% 1/2 %aoe-triangle-2-side%", "** %immobilize%", "** %range% 4/5"]
-            ]
-        },
-        { name: "Ancient Artillery-1"
-        , cards:
-            [ [false, "46", "* %attack% 1/2", "** %range% 6/7"]
+            [[false, "46", "* %attack% 1/2", "** %range% 6/7"]
             , [true, "71", "* %attack% 2/3", "** %range% 4/5", "** All adjacent enemies suffer 2 damage"]
             , [true, "71", "* %attack% 2/3", "** %range% 4/5", "** All adjacent enemies suffer 2 damage"]
             , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 1/2 %aoe-triangle-2-side%", "** %range% 3/4"]
@@ -40,9 +30,23 @@ DECK_DEFINITONS =
             , [false, "46", "* %attack% 1/2 %aoe-triangle-2-side%", "** %immobilize%", "** %range% 4/5"]
             ]
         },
-        { name: "Ancient Artillery-2"
+        {
+            name: "Ancient Artillery-1"
         , cards:
-            [ [false, "46", "* %attack% 1/2", "** %range% 7/8"]
+            [[false, "46", "* %attack% 1/2", "** %range% 6/7"]
+            , [true, "71", "* %attack% 2/3", "** %range% 4/5", "** All adjacent enemies suffer 2 damage"]
+            , [true, "71", "* %attack% 2/3", "** %range% 4/5", "** All adjacent enemies suffer 2 damage"]
+            , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 1/2 %aoe-triangle-2-side%", "** %range% 3/4"]
+            , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 1/2 %aoe-circle%", "** %range% 3/4"]
+            , [false, "17", "* %push% 2", "** Target all adjacent enemies", "* %shield% 2", "* %attack% 0/1", "** %range% 4/5"]
+            , [false, "95", "* %attack% 3/4", "** %range% 4/5"]
+            , [false, "46", "* %attack% 1/2 %aoe-triangle-2-side%", "** %immobilize%", "** %range% 4/5"]
+            ]
+        },
+        {
+            name: "Ancient Artillery-2"
+        , cards:
+            [[false, "46", "* %attack% 1/2", "** %range% 7/8"]
             , [true, "71", "* %attack% 2/3", "** %range% 5/6", "** All adjacent enemies suffer 2 damage"]
             , [true, "71", "* %attack% 2/3", "** %range% 5/6", "** All adjacent enemies suffer 2 damage"]
             , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 1/2 %aoe-triangle-2-side%", "** %range% 4/5"]
@@ -52,9 +56,10 @@ DECK_DEFINITONS =
             , [false, "46", "* %attack% 1/2 %aoe-triangle-2-side%", "** %immobilize%", "** %range% 5/6"]
             ]
         },
-        { name: "Ancient Artillery-3"
+        {
+            name: "Ancient Artillery-3"
         , cards:
-            [ [false, "46", "* %attack% 2/3", "** %range% 7/8"]
+            [[false, "46", "* %attack% 2/3", "** %range% 7/8"]
             , [true, "71", "* %attack% 3/4", "** %range% 5/6", "** All adjacent enemies suffer 2 damage"]
             , [true, "71", "* %attack% 3/4", "** %range% 5/6", "** All adjacent enemies suffer 2 damage"]
             , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 2/3 %aoe-triangle-2-side%", "** %range% 4/5"]
@@ -64,9 +69,10 @@ DECK_DEFINITONS =
             , [false, "46", "* %attack% 2/3 %aoe-triangle-2-side%", "** %immobilize%", "** %range% 5/6"]
             ]
         },
-        { name: "Ancient Artillery-4"
+        {
+            name: "Ancient Artillery-4"
                 , cards:
-            [ [false, "46", "* %attack% 3/3", "** %range% 7/8"]
+            [[false, "46", "* %attack% 3/3", "** %range% 7/8"]
             , [true, "71", "* %attack% 4/4", "** %range% 5/6", "** All adjacent enemies suffer 2 damage"]
             , [true, "71", "* %attack% 4/4", "** %range% 5/6", "** All adjacent enemies suffer 2 damage"]
             , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 3/3 %aoe-triangle-2-side%", "** %range% 4/5"]
@@ -76,9 +82,10 @@ DECK_DEFINITONS =
             , [false, "46", "* %attack% 3/3 %aoe-triangle-2-side%", "** %immobilize%", "** %range% 5/6"]
             ]
         },
-        { name: "Ancient Artillery-5"
+        {
+            name: "Ancient Artillery-5"
         , cards:
-        [ [false, "46", "* %attack% 3/3", "** %range% 8/9"]
+        [[false, "46", "* %attack% 3/3", "** %range% 8/9"]
             , [true, "71", "* %attack% 4/4", "** %range% 6/7", "** All adjacent enemies suffer 2 damage"]
             , [true, "71", "* %attack% 4/4", "** %range% 6/7", "** All adjacent enemies suffer 2 damage"]
             , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 3/3 %aoe-triangle-2-side%", "** %range% 5/6"]
@@ -88,9 +95,10 @@ DECK_DEFINITONS =
             , [false, "46", "* %attack% 3/3 %aoe-triangle-2-side%", "** %immobilize%", "** %range% 6/7"]
         ]
         },
-        { name: "Ancient Artillery-6"
+        {
+            name: "Ancient Artillery-6"
                 , cards:
-            [ [false, "46", "* %attack% 3/4", "** %range% 8/9"]
+            [[false, "46", "* %attack% 3/4", "** %range% 8/9"]
             , [true, "71", "* %attack% 4/5", "** %range% 6/7", "** All adjacent enemies suffer 2 damage"]
             , [true, "71", "* %attack% 4/5", "** %range% 6/7", "** All adjacent enemies suffer 2 damage"]
             , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 3/4 %aoe-triangle-2-side%", "** %range% 5/6"]
@@ -100,9 +108,10 @@ DECK_DEFINITONS =
             , [false, "46", "* %attack% 3/4 %aoe-triangle-2-side%", "** %immobilize%", "** %range% 6/7"]
             ]
         },
-        { name: "Ancient Artillery-7"
+        {
+            name: "Ancient Artillery-7"
         , cards:
-            [ [false, "46", "* %attack% 3/4", "** %range% 9/9"]
+            [[false, "46", "* %attack% 3/4", "** %range% 9/9"]
             , [true, "71", "* %attack% 4/5", "** %range% 7/7", "** All adjacent enemies suffer 2 damage"]
             , [true, "71", "* %attack% 4/5", "** %range% 7/7", "** All adjacent enemies suffer 2 damage"]
             , [false, "37", "* %push% 1", "** Target all adjacent enemies", "* %attack% 3/4 %aoe-triangle-2-side%", "** %range% 6/6"]

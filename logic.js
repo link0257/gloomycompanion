@@ -426,6 +426,7 @@ function ScenarioList(scenarios)
 
 function init()
 {
+    var level = prompt('Enter difficulty level');
     decks = load(DECK_DEFINITONS);
 
     var deckspage = document.getElementById("deckspage");
@@ -442,12 +443,22 @@ function init()
     applydeckbtn.onclick = function()
     {
         var selected_deck_names = decklist.get_selection();
+        for (var i = 0; i < selected_deck_names.length; i++) {
+            if (selected_deck_names[i] != "Boss") {
+                selected_deck_names[i] = selected_deck_names[i] + "-" + level;
+            }
+        }
         var selected_decks = selected_deck_names.map( function(name) { return decks[name]; } );
         apply_deck_selection(selected_decks, true);
     };
     applyscenariobtn.onclick = function()
     {
         var selected_deck_names = scenariolist.get_scenario_decks();
+        for (var i = 0; i < selected_deck_names.length; i++) {
+            if (selected_deck_names[i] != "Boss") {
+                selected_deck_names[i] = selected_deck_names[i] + "-" + level;
+            }
+        }
         var selected_decks = selected_deck_names.map( function(name) { return decks[name]; } );
         decklist.set_selection(selected_decks.map( function(deck) { return deck.name; } ));
         apply_deck_selection(selected_decks, false);
