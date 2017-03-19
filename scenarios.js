@@ -1,13 +1,13 @@
 SCENARIO_DEFINITIONS =
     [   { name: "#1 Black Barrow"
         , decks: 
-            [ "Guard"
-            , "Archer"
+            [ "Bandit Guard"
+            , "Bandit Archer"
             , "Living Bones" ]
         },
         { name: "#2 Barrow Lair"
         , decks:
-            [ "Archer"
+            [ "Bandit Archer"
             , "Boss"
             , "Living Bones"
             , "Living Corpse"
@@ -15,14 +15,14 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#3 Inox Encampment"
         , decks:
-            [ "Guard" 
-            , "Archer"
-            , "Shaman" ]
+            [ "Innox Guard" 
+            , "Innox Archer"
+            , "Innox Shaman"]
         },
         { name: "#4 Crypt of the Damned"
         , decks:
             [ "Living Bones"
-            , "Archer"
+            , "Bandit Archer"
             , "Cultist"
             , "Earth Demon"
             , "Wind Demon"
@@ -47,9 +47,9 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#7 Vibrant Grotto"
         , decks:
-            [ "Imp"
+            [ "Forest Imp"
             , "Cave Bear"
-            , "Shaman"
+            , "Innox Shaman"
             , "Earth Demon"
             ]
         },
@@ -63,7 +63,7 @@ SCENARIO_DEFINITIONS =
         { name: "#9 Diamond Mine"
         , decks:
             [ "Hound"
-            , "Scout"
+            , "Vermling Scout"
             , "Boss"
             ]
         },
@@ -78,8 +78,8 @@ SCENARIO_DEFINITIONS =
         , decks:
             [ "Living Bones"
             , "Living Corpse"
-            , "Guard"
-            , "Archer"
+            , "City Guard"
+            , "City Archer"
             , "Boss"
             ]
         },
@@ -88,8 +88,8 @@ SCENARIO_DEFINITIONS =
             [ "Living Bones"
             , "Living Corpse"
             , "Cultist"
-            , "Guard"
-            , "Archer"
+            , "City Guard"
+            , "City Archer"
             , "Boss"
             ]
         },
@@ -121,14 +121,14 @@ SCENARIO_DEFINITIONS =
         , decks:
             [ "Earth Demon"
             , "Wind Demon"
-            , "Guard"
-            , "Archer"
+            , "Innox Guard"
+            , "Innox Archer"
             ]
         },
         { name: "#17 Lost Island"
         , decks:
-            [ "Scout"
-            , "Shaman"
+            [ "Vermling Scout"
+            , "Vermling Shaman"
             , "Cave Bear"
             ]
         },
@@ -136,7 +136,7 @@ SCENARIO_DEFINITIONS =
         , decks:
             [ "Giant Viper"
             , "Ooze"
-            , "Scout"
+            , "Vermling Scout"
             ]
         },
         { name: "#19 Forgotten Crypt"
@@ -204,7 +204,7 @@ SCENARIO_DEFINITIONS =
             [ "Living Corpse"
             , "Ooze"
             , "Night Demon"
-            , "Imp"
+            , "Black Imp"
             ]
         },
         { name: "#27 Ruinous Rift"
@@ -231,7 +231,7 @@ SCENARIO_DEFINITIONS =
             [ "Living Bones"
             , "Living Corpse"
             , "Living Spirit"
-            , "Imp"
+            , "Black Imp"
             ]
         },
         { name: "#30 Shrine of the Depths"
@@ -245,7 +245,7 @@ SCENARIO_DEFINITIONS =
         , decks:
             [ "Deep Terror"
             , "Night Demon"
-            , "Imp"
+            , "Black Imp"
             ]
         },
         { name: "#32 Decrepit Wood"
@@ -253,7 +253,7 @@ SCENARIO_DEFINITIONS =
             [ "Harrower Infester"
             , "Giant Viper"
             , "Deep Terror"
-            , "Imp"
+            , "Black Imp"
             ]
         },
         { name: "#33 Savvas Armory"
@@ -279,8 +279,8 @@ SCENARIO_DEFINITIONS =
             , "Frost Demon"
             , "Earth Demon"
             , "Wind Demon"
-            , "Guard"
-            , "Archer"
+            , "City Guard"
+            , "City Archer"
             , "Boss"
             ]
         },
@@ -290,7 +290,7 @@ SCENARIO_DEFINITIONS =
             , "Frost Demon"
             , "Earth Demon"
             , "Wind Demon"
-            , "Archer"
+            , "City Archer"
             , "Boss"
             ]
         },
@@ -303,9 +303,9 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#38 Slave Pens"
         , decks:
-            [ "Guard"
-            , "Archer"
-            , "Shaman"
+            [ "Innox Guard"
+            , "Innox Archer"
+            , "Innox Shaman"
             , "Stone Golem"
             ]
         },
@@ -324,7 +324,7 @@ SCENARIO_DEFINITIONS =
             , "Flame Demon"
             , "Cave Bear"
             , "Stone Golem"
-            , "Imp"
+            , "Forest Imp"
             ]
         },
         { name: "#41 Timeworn Tomb"
@@ -351,16 +351,16 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#44 Tribal Assault"
         , decks:
-            [ "Guard"
-            , "Archer"
+            [ "Innox Guard"
+            , "Innox Archer"
             , "Hound"
-            , "Shaman"
+            , "Innox Shaman"
             ]
         },
         { name: "#45 Rebel Swamp"
         , decks:
-            [ "Guard"
-            , "Archer"
+            [ "City Guard"
+            , "City Archer"
             , "Hound"
             ]
         },
@@ -383,7 +383,7 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#48 - Shadow Weald"
         , decks:
-            [ "Imp"
+            [ "Forest Imp"
             , "Earth Demon"
             , "Harrower Infester"
             , "Boss"
@@ -392,8 +392,8 @@ SCENARIO_DEFINITIONS =
         { name: "#49 Rebel's Stand"
         , decks:
             [ "Giant Viper"
-            , "Archer"
-            , "Guard"
+            , "City Archer"
+            , "City Guard"
             , "Ancient Artillery"
             ]
         },
@@ -413,9 +413,9 @@ SCENARIO_DEFINITIONS =
         , decks:
             [ "Spitting Drake"
             , "Ooze"
-            , "Scout"
+            , "Vermling Scout"
             , "Living Corpse"
-            , "Shaman"
+            , "Vermling Shaman"
             ]
         },
         { name: "#53 Crypt Basement"
@@ -445,15 +445,15 @@ SCENARIO_DEFINITIONS =
         { name: "#56 Bandit's Wood"
         , decks:
             [ "Hound"
-            , "Archer"
+            , "Bandit Archer"
             , "Rending Drake"
-            , "Guard"
+            , "Bandit Guard"
             ]
         },
         { name: "#57 Investigation"
         , decks:
-            [ "Guard"
-            , "Archer"
+            [ "City Guard"
+            , "City Archer"
             , "Hound"
             ]
         },
@@ -461,15 +461,15 @@ SCENARIO_DEFINITIONS =
         , decks:
             [ "Earth Demon"
             , "Harrower Infester"
-            , "Imp"
-            , "Guard"
+            , "Black Imp"
+            , "City Guard"
             ]
         },
         { name: "#59 Forgotten Grove"
         , decks:
             [ "Cave Bear"
             , "Hound"
-            , "Imp"
+            , "Forest Imp"
             ]
         },
         { name: "#60 Alchemy Lab"
@@ -497,23 +497,23 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#63 Magma Pit"
         , decks:
-            [ "Scout"
-            , "Guard"
-            , "Archer"
+            [ "Vermling Scout"
+            , "Innox Guard"
+            , "Innox Archer"
             ]
         },
         { name: "#64 Underwater Lagoon"
         , decks:
             [ "Ooze"
-            , "Imp"
+            , "Forest Imp"
             , "Rending Drake"
             ]
         },
         { name: "#65 Sulfur Mine"
         , decks:
-            [ "Scout"
+            [ "Vermling Scout"
             , "Hound"
-            , "Shaman"
+            , "Innox Shaman"
             ]
         },
         { name: "#66 Clockwork Cove"
@@ -526,7 +526,7 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#67 Arcane Library"
         , decks:
-            [ "Imp"
+            [ "Forest Imp"
             , "Cave Bear"
             , "Stone Golem"
             ]
@@ -534,16 +534,16 @@ SCENARIO_DEFINITIONS =
         { name: "#68 Toxic Moor"
         , decks:
             [ "Rending Drake"
-            , "Imp"
+            , "Black Imp"
             , "Giant Viper"
             , "Living Corpse"
             ]
         },
         { name: "#69 Well of the Unfortunate"
         , decks:
-            [ "Scout"
-            , "Shaman"
-            , "Imp"
+            [ "Vermling Scout"
+            , "Vermling Shaman"
+            , "Forest Imp"
             , "Stone Golem"
             , "Living Spirit"
             ]
@@ -565,23 +565,23 @@ SCENARIO_DEFINITIONS =
         { name: "#72 Oozing Grove"
         , decks:
             [ "Ooze"
-            , "Imp"
+            , "Forest Imp"
             , "Giant Viper"
             ]
         },
         { name: "#73 Rockslide Ridge"
         , decks:
             [ "Hound"
-            , "Archer"
+            , "Innox Archer"
             , "Ancient Artillery"
-            , "Guard"
-            , "Shaman"
+            , "Innox Guard"
+            , "Innox Shaman"
             ]
         },
         { name: "#74 Merchant Ship"
         , decks:
-            [ "Guard"
-            , "Archer"
+            [ "Bandit Guard"
+            , "Bandit Archer"
             , "Lurker"
             , "Deep Terror"
             ]
@@ -603,19 +603,19 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#77 Vault of Secrets"
         , decks:
-            [ "Guard"
-            , "Archer"
+            [ "City Guard"
+            , "City Archer"
             , "Golem"
             , "Hound"
             ]
         },
         { name: "#78 Sacrifice Pit"
         , decks:
-            [ "Guard"
-            , "Archer"
+            [ "Bandit Guard"
+            , "Bandit Archer"
             , "Cultist"
             , "Living Bones"
-            , "Imp"
+            , "Black Imp"
             ]
         },
         { name: "#79 Lost Temple"
@@ -627,8 +627,8 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#80 Vigil Keep"
         , decks:
-            [ "Guard"
-            , "Archer"
+            [ "City Guard"
+            , "City Archer"
             , "Ancient Artillery"
             , "Hound"
             ]
@@ -668,7 +668,7 @@ SCENARIO_DEFINITIONS =
         { name: "#85 Sun Temple"
         , decks:
             [ "Hound"
-            , "Imp"
+            , "Black Imp"
             , "Night Demon"
             , "Sun Demon"
             ]
@@ -676,8 +676,8 @@ SCENARIO_DEFINITIONS =
         { name: "#86 Harried Village"
         , decks:
             [ "Cave Bear"
-            , "Shaman"
-            , "Scout"
+            , "Vermling Shaman"
+            , "Vermling Scout"
             , "Lurker"
             ]
         },
@@ -698,8 +698,8 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#89 Syndicate Hideout"
         , decks:
-            [ "Archer"
-            , "Guard"
+            [ "Bandit Archer"
+            , "Bandit Guard"
             , "Cultist"
             , "Giant Viper"
             ]
@@ -716,15 +716,18 @@ SCENARIO_DEFINITIONS =
         , decks:
             [ "Cave Bear"
             , "Hound"
-            , "Guard"
-            , "Archer"
+            , "Bandit Guard"
+            , "Bandit Archer"
             , "Living Spirit"
             ]
         },
         { name: "#92 Back Alley Brawl"
         , decks:
-            [ "Guard"
-            , "Archer"
+            [ "Bandit Guard"
+            , "Bandit Archer"
+            , "Innox  Guard"
+            , "City Archer"
+            , "City  Guard"
             , "Savvas Icestorm"
             , "Frost Demon"
             , "Wind Demon"
@@ -740,8 +743,8 @@ SCENARIO_DEFINITIONS =
         { name: "#94 Vermling Nest"
         , decks:
             [ "Hound"
-            , "Scout"
-            , "Shaman"
+            , "Vermling Scout"
+            , "Vermling Shaman"
             , "Cave Bear"
             ]
         },
