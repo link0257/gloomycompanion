@@ -604,7 +604,7 @@ function apply_deck_selection(decks, preserve_existing_deck_state)
 function init_modifier_deck()
 {
     var deck = load_modifier_deck(0,0);
-    modifier_deck = deck;
+    modifier_deck = deck; 
 }
 
 function add_modifier_deck(container, deck)
