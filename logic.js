@@ -798,7 +798,7 @@ function init()
     {
         var selected_deck_names = scenariolist.get_scenario_decks();
         for (var i = 0; i < selected_deck_names.length; i++) {
-            if (selected_deck_names[i] != "Boss") {
+            if (selected_deck_names[i] != "Boss") { 
                 selected_deck_names[i] = selected_deck_names[i] + "-" + level;
             }
         }

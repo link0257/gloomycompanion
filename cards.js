@@ -3676,7 +3676,7 @@ DECK_DEFINITONS =
             , [false, "51", "* All enemies suffer 2 damage.", "* %fire%%use_element%: %wound% all enemies", "* %earth%%use_element%: %disarm% all enemies"]
             , [false, "31", "* %heal% 4", "** %range% 3", "** %earth%%use_element%: %target% 3"]
             , [true, "68", "* %move% 3/3", "* %attack% 3/5", "** %range% 3", "** %target% 2", "* %fire%"]
-            ]
+            ] 
         },
         {
             name: "Savvas Lavaflow-7"
